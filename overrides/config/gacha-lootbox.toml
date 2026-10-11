@@ -1,0 +1,61 @@
+
+[visuals]
+	#Normal amount of particles to spawn when interacting with the lootbox (placed, opened, etc.) Some values will be multiplied by 2 for better effects, so mind performance
+	typicalParticleAmount = 5.0
+	#Following values will define the dx dy dz of the particle box when the lootbox particle effects are used (like what you would see if you used the /particle command in game)
+	particleBoxX = 0.05
+	particleBoxY = 0.15
+	particleBoxZ = 0.05
+	#Controls the base particle speed -/+ some
+	particleVisualSpeed = 0.1
+	#Animation and effects the lootbox will use. 1 - normal, 2 - explosion, 3 - lid vanish, 5 - crush
+	animation = 1.0
+	#Spawns particles when the lootbox is placed down
+	particlesWhenPlacedDown = true
+
+[behaviour]
+	#When broken in survival by a player, lootboxes will ignore the doTileDrops gamerule and drop themselves anyways.
+	doTileDropsOverride = false
+	#Allows players to use redstone signal to open lootboxes, configure chances below!!
+	allowUsingRedstone = true
+	#Lootbox will open only if the player has the hand item in their main hand
+	allowOnlyHands = true
+	#Will show a message in the action bar to players if they need to have a special item in their hands to open a lootbox
+	displayLootboxLockedMessage = true
+	#Sometimes, if your game crashes when you're opening a lootbox (or if you exit the world), the procedures started by this mod will stop, leaving an unbreakable lootbox dummy block in the world. This option allows players to shoot it with any projectile to break, so they don't have to go in creative. But be mindful that they can also shoot it mid-animation, while the lootbox is still not done opening
+	allowShootDummyToDestroy = false
+	#When a player shoots the lootbox dummy, this will be the number of ticks the game will wait to remove it (to prevent the lootbox from being removed during animations, they last exactly 40 ticks)
+	shootDestroyTicks = 40.0
+	#When the animation is set to 2, this will control the type of explosion that happens. EFFECT will make an explosion effect, with no explosion, NONE will just do damage, TNT will act like a tnt block and destroy blocks
+	secondAnimationExplosionType = "EFFECT"
+	#When set to anything other than EFFECT, this will control the explosion power of the lootbox.
+	secondAnimationExplosionPower = 2.0
+
+[items]
+	handItem = "minecraft:air"
+	sorrowKeyItem = "gacha:sorrow_key"
+	commonKeyItem = "gacha:common_key"
+	uncommonKeyItem = "gacha:uncommon_key"
+	rareKeyItem = "gacha:rare_key"
+	epicKeyItem = "gacha:epic_key"
+
+[gacharates]
+	#These values control the rates of key drops. 0.01 = 1%, 0.1 = 10%, 1 = 100%, but mind that sorrow keys will always drop in the rest of percentage left, so make sure it doesnt add up to 1
+	commonKeyRate = 0.25
+	uncommonKeyRate = 0.1
+	rareKeyRate = 0.05
+	epicKeyRate = 0.01
+	#Values used for redstone opened lootboxes
+	redstoneCommonKeyRate = 0.1
+	redstoneUncommonKeyRate = 0.05
+	redstoneRareKeyRate = 0.02
+	redstoneEpicKeyRate = 0.005
+
+[text]
+	#Defines whether a custom lootbox is locked message should be displayed
+	useCustomLocked = false
+	#Custom locked message. Cannot be translated, so if you're looking for something more worldwide friendly you should use resource packs instead
+	lockedMessage = "Use the Supplementaries key item to unlock this lootbox"
+	#Logs every lootbox opened, location and player luck value.
+	debugLogSpam = false
+

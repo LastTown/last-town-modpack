@@ -1,0 +1,9 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.log
+
+# Archives de modpack générées
+last-town-modpack-*.zip

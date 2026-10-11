@@ -1,0 +1,39 @@
+{
+  "vaults": {
+    "0": {
+      "vaultId": "e4d872d5-1978-43c7-a40d-e1978726512e",
+      "purchased": false,
+      "locked": false,
+      "lastRentPaid": 1789843456495,
+      "items": []
+    },
+    "1": {
+      "vaultId": "2cf9e355-84d0-4bcb-aae8-6ec661689fae",
+      "purchased": false,
+      "locked": false,
+      "lastRentPaid": 1789843456496,
+      "items": []
+    },
+    "2": {
+      "vaultId": "f9402b70-6541-42c2-9426-fa92319d10b5",
+      "purchased": false,
+      "locked": false,
+      "lastRentPaid": 1789843456496,
+      "items": []
+    },
+    "3": {
+      "vaultId": "c649f0b9-8647-4cc9-b102-b2b161567e72",
+      "purchased": false,
+      "locked": false,
+      "lastRentPaid": 1789843456496,
+      "items": []
+    },
+    "4": {
+      "vaultId": "4493c01f-6d98-4adf-a75d-65ae4192ed1d",
+      "purchased": false,
+      "locked": false,
+      "lastRentPaid": 1789843456496,
+      "items": []
+    }
+  }
+}

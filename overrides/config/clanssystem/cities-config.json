@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "durationHours": 3,
+    "cooldownMinutes": 30,
+    "abandonTimerSeconds": 20,
+    "inactivityTimeoutSeconds": 60
+  },
+  "economy": {
+    "paymentIntervalMinutes": 30,
+    "incomeLevel1": 20,
+    "incomeLevel2": 40,
+    "incomeLevel3": 70,
+    "incomeLevel4": 150,
+    "incomeLevel5": 300,
+    "currencyItem": "clanssystem:billet_clan",
+    "unitsPerItem": 1
+  },
+  "hologram": {
+    "scale": 2.5,
+    "height": 4.0,
+    "lineSpacing": 0.9
+  },
+  "safezone": {
+    "invulnerabilitySeconds": 120,
+    "hideNametags": false
+  },
+  "captureInvulnerability": {
+    "enabled": true,
+    "durationMinutes": 30
+  },
+  "ranking": {
+    "captureLevel1": 1.0,
+    "captureLevel2": 2.0,
+    "captureLevel3": 3.0,
+    "captureLevel4": 4.0,
+    "captureLevel5": 5.0,
+    "defeatMultiplier": 2.0,
+    "lossMultiplier": 0.5
+  },
+  "strobeRocket": {
+    "enabled": true,
+    "spawnHeight": 17.0,
+    "effectSizeMultiplier": 1.0,
+    "explosionSizeMultiplier": 1.0,
+    "maxSoundDistance": 256.0,
+    "soundVolume": 0.3,
+    "renderDistance": 512.0,
+    "maxFlightHeight": 64.0,
+    "primaryColor": "90EE90",
+    "secondaryColor": "FFFFFF"
+  }
+}

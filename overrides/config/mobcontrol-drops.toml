@@ -1,0 +1,13 @@
+
+#Mob Drops Configuration
+#
+#Custom drops are configured in: config/mobcontrol-drops.json
+#The JSON file allows for a cleaner, more readable format.
+[drops]
+	#Disable all vanilla mob drops (loot tables)
+	#Set to true to only use custom drops from mobcontrol-drops.json
+	disableVanillaDrops = false
+	#Disable all experience orb drops from mobs
+	#Useful if you have a custom XP system (like Party Ranks)
+	disableXPDrops = false
+

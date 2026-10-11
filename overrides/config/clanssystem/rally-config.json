@@ -1,0 +1,17 @@
+{
+  "costs": {
+    "placement": 100,
+    "teleport": 25
+  },
+  "cooldowns": {
+    "teleportMinutes": 5
+  },
+  "zone": {
+    "deactivationRadius": 3,
+    "deactivationTimeSeconds": 5
+  },
+  "hologram": {
+    "scale": 2.0,
+    "height": 3.0
+  }
+}

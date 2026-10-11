@@ -1,0 +1,52 @@
+{
+  "capture": {
+    "progressPerSecond": 0.5,
+    "decreasePerSecond": 0.5,
+    "tickInterval": 20
+  },
+  "control": {
+    "durationMinutes": 240
+  },
+  "economy": {
+    "paymentIntervalMinutes": 30,
+    "incomeLevel1": 150,
+    "incomeLevel2": 350,
+    "incomeLevel3": 700,
+    "incomeLevel4": 1500,
+    "incomeLevel5": 3000
+  },
+  "zombies": {
+    "spawnIntervalTicks": 40,
+    "maxActiveZombies": 10,
+    "zombiesLevel1": 3,
+    "zombiesLevel2": 5,
+    "zombiesLevel3": 7,
+    "zombiesLevel4": 10,
+    "zombiesLevel5": 15
+  },
+  "hologram": {
+    "scale": 2.5,
+    "height": 4.0,
+    "lineSpacing": 0.9
+  },
+  "ranking": {
+    "captureLevel1": 2.0,
+    "captureLevel2": 4.0,
+    "captureLevel3": 6.0,
+    "captureLevel4": 8.0,
+    "captureLevel5": 10.0,
+    "lossMultiplier": 0.5
+  },
+  "strobeRocket": {
+    "enabled": true,
+    "spawnHeight": 17.0,
+    "effectSizeMultiplier": 1.0,
+    "explosionSizeMultiplier": 1.0,
+    "maxSoundDistance": 256.0,
+    "soundVolume": 0.3,
+    "renderDistance": 512.0,
+    "maxFlightHeight": 64.0,
+    "primaryColor": "FF6600",
+    "secondaryColor": "FF0000"
+  }
+}

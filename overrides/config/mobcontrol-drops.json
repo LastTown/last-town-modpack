@@ -1,0 +1,502 @@
+{
+  "minecraft:zombie": {
+    "drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "min": 1,
+        "max": 3,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "min": 1,
+        "max": 1,
+        "chance": 5
+      },
+      {
+        "item": "minecraft:carrot",
+        "min": 1,
+        "max": 1,
+        "chance": 3
+      },
+      {
+        "item": "minecraft:potato",
+        "min": 1,
+        "max": 1,
+        "chance": 3
+      }
+    ]
+  },
+  "minecraft:husk": {
+    "drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "min": 1,
+        "max": 3,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "min": 1,
+        "max": 1,
+        "chance": 5
+      }
+    ]
+  },
+  "minecraft:drowned": {
+    "drops": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      },
+      {
+        "item": "minecraft:trident",
+        "min": 1,
+        "max": 1,
+        "chance": 2
+      }
+    ]
+  },
+  "minecraft:skeleton": {
+    "drops": [
+      {
+        "item": "minecraft:bone",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:arrow",
+        "min": 1,
+        "max": 5,
+        "chance": 80
+      },
+      {
+        "item": "minecraft:bow",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      }
+    ]
+  },
+  "minecraft:stray": {
+    "drops": [
+      {
+        "item": "minecraft:bone",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:arrow",
+        "min": 1,
+        "max": 5,
+        "chance": 80
+      },
+      {
+        "item": "minecraft:tipped_arrow",
+        "min": 1,
+        "max": 2,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:creeper": {
+    "drops": [
+      {
+        "item": "minecraft:gunpowder",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:spider": {
+    "drops": [
+      {
+        "item": "minecraft:string",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:cave_spider": {
+    "drops": [
+      {
+        "item": "minecraft:string",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:enderman": {
+    "drops": [
+      {
+        "item": "minecraft:ender_pearl",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:witch": {
+    "drops": [
+      {
+        "item": "minecraft:glass_bottle",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:glowstone_dust",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:redstone",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:sugar",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:stick",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:slime": {
+    "drops": [
+      {
+        "item": "minecraft:slime_ball",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:phantom": {
+    "drops": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:blaze": {
+    "drops": [
+      {
+        "item": "minecraft:blaze_rod",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:ghast": {
+    "drops": [
+      {
+        "item": "minecraft:ghast_tear",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:wither_skeleton": {
+    "drops": [
+      {
+        "item": "minecraft:coal",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:bone",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "min": 1,
+        "max": 1,
+        "chance": 3
+      }
+    ]
+  },
+  "minecraft:magma_cube": {
+    "drops": [
+      {
+        "item": "minecraft:magma_cream",
+        "min": 1,
+        "max": 2,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:piglin": {
+    "drops": [
+      {
+        "item": "minecraft:gold_ingot",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      }
+    ]
+  },
+  "minecraft:piglin_brute": {
+    "drops": [
+      {
+        "item": "minecraft:gold_ingot",
+        "min": 1,
+        "max": 1,
+        "chance": 20
+      },
+      {
+        "item": "minecraft:golden_axe",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      }
+    ]
+  },
+  "minecraft:hoglin": {
+    "drops": [
+      {
+        "item": "minecraft:porkchop",
+        "min": 2,
+        "max": 4,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:leather",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:guardian": {
+    "drops": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "min": 1,
+        "max": 1,
+        "chance": 40
+      },
+      {
+        "item": "minecraft:cod",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:elder_guardian": {
+    "drops": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "min": 2,
+        "max": 5,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "min": 1,
+        "max": 2,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:wet_sponge",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:cod",
+        "min": 1,
+        "max": 2,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:shulker": {
+    "drops": [
+      {
+        "item": "minecraft:shulker_shell",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:pillager": {
+    "drops": [
+      {
+        "item": "minecraft:arrow",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:crossbow",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      },
+      {
+        "item": "minecraft:emerald",
+        "min": 1,
+        "max": 1,
+        "chance": 5
+      }
+    ]
+  },
+  "minecraft:vindicator": {
+    "drops": [
+      {
+        "item": "minecraft:emerald",
+        "min": 1,
+        "max": 1,
+        "chance": 20
+      },
+      {
+        "item": "minecraft:iron_axe",
+        "min": 1,
+        "max": 1,
+        "chance": 10
+      }
+    ]
+  },
+  "minecraft:evoker": {
+    "drops": [
+      {
+        "item": "minecraft:totem_of_undying",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:emerald",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:ravager": {
+    "drops": [
+      {
+        "item": "minecraft:saddle",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:emerald",
+        "min": 1,
+        "max": 3,
+        "chance": 50
+      }
+    ]
+  },
+  "minecraft:warden": {
+    "drops": [
+      {
+        "item": "minecraft:sculk_catalyst",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:ender_dragon": {
+    "drops": [
+      {
+        "item": "minecraft:dragon_egg",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      },
+      {
+        "item": "minecraft:elytra",
+        "min": 1,
+        "max": 1,
+        "chance": 50
+      },
+      {
+        "item": "minecraft:dragon_breath",
+        "min": 3,
+        "max": 5,
+        "chance": 100
+      }
+    ]
+  },
+  "minecraft:wither": {
+    "drops": [
+      {
+        "item": "minecraft:nether_star",
+        "min": 1,
+        "max": 1,
+        "chance": 100
+      }
+    ]
+  }
+}

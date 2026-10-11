@@ -1,0 +1,87 @@
+{
+  "timing": {
+    "initialDelay": 10,
+    "timeBetweenWaves": 30,
+    "timeBetweenSpawnsTicks": 10
+  },
+  "wavesPerLevel": {
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6
+  },
+  "monstersPerWave": {
+    "1": 5,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20
+  },
+  "levelMultipliers": {
+    "1": {
+      "health": 1.0,
+      "damage": 1.0,
+      "speed": 1.0
+    },
+    "2": {
+      "health": 1.25,
+      "damage": 1.2,
+      "speed": 1.05
+    },
+    "3": {
+      "health": 1.5,
+      "damage": 1.4,
+      "speed": 1.1
+    },
+    "4": {
+      "health": 2.0,
+      "damage": 1.6,
+      "speed": 1.15
+    },
+    "5": {
+      "health": 2.5,
+      "damage": 2.0,
+      "speed": 1.2
+    }
+  },
+  "mobSettings": {
+    "noKnockback": true,
+    "burnInSunlight": false,
+    "silentSpawn": false,
+    "glowing": false,
+    "glowColor": "RED"
+  },
+  "monsters": [
+    {
+      "entityType": "minecraft:zombie",
+      "baseHealth": 20.0,
+      "baseDamage": 3.0,
+      "baseSpeed": 0.23,
+      "spawnChance": 50,
+      "aggroRange": 32.0,
+      "followRange": 40.0,
+      "dropEquipment": false,
+      "showCustomName": false,
+      "customName": "",
+      "equipment": {
+        "head": "minecraft:oak_button"
+      }
+    },
+    {
+      "entityType": "minecraft:husk",
+      "baseHealth": 25.0,
+      "baseDamage": 4.0,
+      "baseSpeed": 0.2,
+      "spawnChance": 50,
+      "aggroRange": 32.0,
+      "followRange": 40.0,
+      "dropEquipment": false,
+      "showCustomName": false,
+      "customName": "",
+      "equipment": {
+        "head": "minecraft:oak_button"
+      }
+    }
+  ]
+}

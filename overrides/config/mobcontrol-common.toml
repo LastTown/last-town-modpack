@@ -1,0 +1,47 @@
+
+#Mob Control Configuration
+#
+#Mob spawn settings are in: config/mobcontrol-mobs.json
+#The JSON file allows for cleaner attribute configuration.
+[general]
+	#If true, only mobs in the JSON file can spawn (whitelist mode)
+	#If false, mobs in the JSON file are blocked from spawning (blacklist mode)
+	whitelistMode = true
+	#If true, control ALL mob types (not just monsters)
+	#Enable this to block modded mobs that use wrong categories
+	#When enabled, ANY mob not in the config will be blocked
+	controlAllMobs = true
+	#Maximum number of hostile mobs allowed around each player
+	#Set to 0 to disable this limit
+	#Range: 0 ~ 500
+	mobLimitPerPlayer = 30
+	#Radius (in blocks) around the player to check for mob count
+	#Range: 16 ~ 256
+	mobCheckRadius = 64
+	#Global maximum number of hostile mobs in the world
+	#Set to 0 to disable this limit
+	#Range: 0 ~ 10000
+	globalMobCap = 200
+	#Minimum distance (blocks) from player for natural mob spawns
+	#Mobs spawning closer than this will be blocked
+	#Set to 0 to disable this check
+	#Range: 0 ~ 256
+	spawnMinDistance = 24
+	#Maximum distance (blocks) from player for natural mob spawns
+	#Mobs spawning farther than this will be blocked
+	#Set to 0 to disable this check
+	#Range: 0 ~ 512
+	spawnMaxDistance = 128
+	#Distance (blocks) from nearest player beyond which mobs are force-despawned
+	#Checked every 5 seconds. Set to 0 to disable forced despawn
+	#Range: 0 ~ 512
+	despawnDistance = 128
+	#List of mod patterns to completely ignore (passthrough)
+	#Mobs from these mods will spawn normally without any control
+	#Use 'modid:*' to allow all mobs from a mod (e.g., 'customnpcs:*')
+	#Use 'modid:mobname' for specific mobs (e.g., 'customnpcs:customnpc')
+	passthroughMods = ["customnpcs:*"]
+	#Enable detailed logging for the custom spawner
+	#Shows spawn successes, failures, and reasons in server logs
+	debugSpawner = false
+

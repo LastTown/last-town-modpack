@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Base_Militaire",
+    "stars": 5,
+    "passivePR": 40
+  },
+  {
+    "name": "Prison",
+    "stars": 5,
+    "passivePR": 40
+  },
+  {
+    "name": "Laboratoire",
+    "stars": 4,
+    "passivePR": 25
+  },
+  {
+    "name": "Manufacture",
+    "stars": 4,
+    "passivePR": 25
+  },
+  {
+    "name": "Port",
+    "stars": 4,
+    "passivePR": 25
+  },
+  {
+    "name": "Hangar",
+    "stars": 4,
+    "passivePR": 25
+  },
+  {
+    "name": "Ferme_Illegale",
+    "stars": 4,
+    "passivePR": 25
+  },
+  {
+    "name": "Mines",
+    "stars": 3,
+    "passivePR": 15
+  },
+  {
+    "name": "Commissariat",
+    "stars": 3,
+    "passivePR": 15
+  },
+  {
+    "name": "Hopital",
+    "stars": 3,
+    "passivePR": 15
+  },
+  {
+    "name": "Centre_Commercial",
+    "stars": 2,
+    "passivePR": 8
+  },
+  {
+    "name": "Gare_Ferroviaire",
+    "stars": 2,
+    "passivePR": 8
+  },
+  {
+    "name": "Station_Service",
+    "stars": 2,
+    "passivePR": 8
+  }
+]

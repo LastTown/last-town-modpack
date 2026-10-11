@@ -1,0 +1,22 @@
+{
+  "extraction": {
+    "defaultDelaySeconds": 15,
+    "damageProgressResetPercent": 100,
+    "command": ""
+  },
+  "hologram": {
+    "scale": 2.5,
+    "height": 4.0,
+    "lineSpacing": 0.9
+  },
+  "strobeRocket": {
+    "enabled": true,
+    "spawnHeight": 17.0,
+    "effectSizeMultiplier": 1.0,
+    "spawnAtPercent": 30,
+    "maxSoundDistance": 256.0,
+    "soundVolume": 0.3,
+    "renderDistance": 512.0,
+    "maxFlightHeight": 64.0
+  }
+}

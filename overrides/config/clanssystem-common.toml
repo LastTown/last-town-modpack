@@ -1,0 +1,20 @@
+
+#Clans System Configuration
+[general]
+	#Maximum number of members per clan (0 = unlimited)
+	#Range: 0 ~ 1000
+	maxMembers = 20
+	#Maximum length for clan names
+	#Range: 3 ~ 32
+	maxClanNameLength = 16
+	#Minimum length for clan names
+	#Range: 1 ~ 16
+	minClanNameLength = 3
+	#Time in seconds before an invitation expires
+	#Range: 10 ~ 600
+	invitationTimeoutSeconds = 60
+	#Allow clan members to damage each other
+	allowFriendlyFire = false
+	#Require non-op players to be in a safe zone to use /clan reward, /clan withdraw, and open clan bank chests
+	requireSafezoneForBank = false
+

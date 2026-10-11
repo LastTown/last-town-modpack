@@ -1,0 +1,5 @@
+
+[General]
+	#List of vehicle IDs that should be possible to pick up. Example: ['superbwarfare:mortar', 'superbwarfare:tow']
+	blacklist = ["superbwarfare:mortar", "superbwarfare:tow"]
+

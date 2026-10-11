@@ -1,0 +1,87 @@
+#Number of Minecraft days between loot refreshes.
+#Set to 0 to completely disable loot respawning: once a container has been looted, it will never refill on its own again.
+#Range: 0 ~ 365
+lootRefreshDays = 0
+#Block IDs that can NOT be looted. Add a block's registry name here to globally turn off its looting capability for that block type.
+#Example: ["doomsday_decoration:atm", "doomsday_decoration:safe"]
+lootBlacklist = []
+#Whether players can actually sleep (right click) on the Doomsday Decoration beds.
+#If false, right-clicking them will not put the player to sleep, but can still set their respawn point (unless allowBedRespawn is also false).
+allowBedSleeping = true
+#Whether players actually respawn at a Doomsday Decoration bed they last used.
+#If false, players will never actually respawn there.
+allowBedRespawn = true
+#Whether trash cans (doomsday_decoration:trashcan, trashcan_2, trashcan_3, trashcan_4)
+#show a red "Delete Items" button in their GUI that permanently deletes everything inside them.
+#Deleting requires clicking the button twice (it asks for confirmation first).
+#If false, the button is hidden entirely and items in trash cans can not be deleted this way.
+trashcanDeleteEnabled = true
+
+#Electricity / generator settings
+[electricity]
+	#Master switch for the whole electricity mechanic.
+	#If false: generators can still be switched on/off and still burn fuel, but they no longer power anything.
+	#Lights are never swapped automatically anymore - whichever variant you place stays exactly as placed forever.
+	electricityEnabled = true
+	#Items that can be used as generator fuel, as "itemId;mbValue;returnItemId" entries (semicolon-separated).
+	#itemId: the item that goes in the fuel slot.
+	#mbValue: how much fuel (in mb) is added per item consumed.
+	#returnItemId: what's left behind after the item is used up - leave empty ("") if nothing should be left behind.
+	#Default: a lava bucket gives 1000mb of fuel and leaves an empty bucket behind (the bucket is never lost).
+	#Example: ["minecraft:lava_bucket;1000.0;minecraft:bucket", "minecraft:coal;200.0;"]
+	generatorFuels = ["minecraft:lava_bucket;1000.0;minecraft:bucket"]
+
+	#generator: small portable generator
+	[electricity.generator]
+		#Radius (in blocks, cube in all directions) that this generator powers lights within.
+		#Range: 0 ~ 512
+		radius = 12
+		#Maximum fuel tank capacity, in mb.
+		#Range: 0.0 ~ 1000000.0
+		maxFuelMb = 1000.0
+		#Fuel consumption rate while running, in mb per second.
+		#Range: 0.0 ~ 10000.0
+		consumptionMbPerSecond = 0.2777
+		#Maximum number of MrCrayfish's Furniture Mod: Refurbished electrical appliances that can be
+		#wrench-connected directly to this generator. Set to 0 to disable MrCrayfish electricity
+		#connections entirely for this generator (it simply cannot be wrench-linked).
+		#Has no effect at all if MrCrayfish's Furniture Mod: Refurbished is not installed.
+		#Range: 0 ~ 4096
+		mrcrayfishMaxConnections = 16
+
+	#trailergenerator: trailer-mounted generator
+	[electricity.trailergenerator]
+		#Radius (in blocks, cube in all directions) that this generator powers lights within.
+		#Range: 0 ~ 512
+		radius = 24
+		#Maximum fuel tank capacity, in mb.
+		#Range: 0.0 ~ 1000000.0
+		maxFuelMb = 5000.0
+		#Fuel consumption rate while running, in mb per second.
+		#Range: 0.0 ~ 10000.0
+		consumptionMbPerSecond = 0.7166
+		#Maximum number of MrCrayfish's Furniture Mod: Refurbished electrical appliances that can be
+		#wrench-connected directly to this generator. Set to 0 to disable MrCrayfish electricity
+		#connections entirely for this generator (it simply cannot be wrench-linked).
+		#Has no effect at all if MrCrayfish's Furniture Mod: Refurbished is not installed.
+		#Range: 0 ~ 4096
+		mrcrayfishMaxConnections = 38
+
+	#fixedgenerator: large fixed installation generator
+	[electricity.fixedgenerator]
+		#Radius (in blocks, cube in all directions) that this generator powers lights within.
+		#Range: 0 ~ 512
+		radius = 79
+		#Maximum fuel tank capacity, in mb.
+		#Range: 0.0 ~ 1000000.0
+		maxFuelMb = 45000.0
+		#Fuel consumption rate while running, in mb per second.
+		#Range: 0.0 ~ 10000.0
+		consumptionMbPerSecond = 1.325
+		#Maximum number of MrCrayfish's Furniture Mod: Refurbished electrical appliances that can be
+		#wrench-connected directly to this generator. Set to 0 to disable MrCrayfish electricity
+		#connections entirely for this generator (it simply cannot be wrench-linked).
+		#Has no effect at all if MrCrayfish's Furniture Mod: Refurbished is not installed.
+		#Range: 0 ~ 4096
+		mrcrayfishMaxConnections = 128
+

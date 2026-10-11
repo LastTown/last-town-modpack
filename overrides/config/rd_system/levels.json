@@ -1,0 +1,50 @@
+[
+  {
+    "level": 1,
+    "name": "Fondation",
+    "minCompletedResearchesPreviousLevel": 0,
+    "prCost": 0
+  },
+  {
+    "level": 2,
+    "name": "Organisation",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 100
+  },
+  {
+    "level": 3,
+    "name": "Industrialisation",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 200
+  },
+  {
+    "level": 4,
+    "name": "Expansion",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 300
+  },
+  {
+    "level": 5,
+    "name": "Armement",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 400
+  },
+  {
+    "level": 6,
+    "name": "Mécanisation",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 500
+  },
+  {
+    "level": 7,
+    "name": "Domination territoriale",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 600
+  },
+  {
+    "level": 8,
+    "name": "Technologie avancée",
+    "minCompletedResearchesPreviousLevel": 2,
+    "prCost": 700
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "EngineInfo": {
+    "Buoyancy": 0.18,
+    "EnergyCostRate": 8,
+    "MaxForwardSpeedRate": 0.7,
+    "MaxBackwardSpeedRate": 0.5,
+    "Increment": 0.035,
+    "Decrement": 0.022,
+    "SteeringSpeed": 0.15,
+    "BodyRollRate": 1.3
+  }

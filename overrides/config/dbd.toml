@@ -1,0 +1,52 @@
+
+["Fuel Settings"]
+	#Format for entries: 'modid:name = energy_value' or '#tag = energy_value'
+	#Fuel used by Cars.
+	#Solid fuel list. (items)
+	lightItemFuels = [""]
+	#Liquid fuel list. (energy per 1000mB)
+	lightFluidFuels = ["tfmg:gasoline = 50000"]
+	#Fuel used by Tanks, APCs and Anti Aircraft vehicles.
+	#Solid fuel list. (items)
+	heavyItemFuels = [""]
+	#Liquid fuel list. (energy per 1000mB)
+	heavyFluidFuels = ["tfmg:diesel = 75000"]
+	#Fuel used by Fixed Cannons.
+	#Solid fuel list. (items)
+	artilleryItemFuels = [""]
+	#Liquid fuel list. (energy per 1000mB)
+	artilleryFluidFuels = ["tfmg:diesel = 100000"]
+	#Fuel used by Boats.
+	#Solid fuel list. (items)
+	navalItemFuels = [""]
+	#Liquid fuel list. (energy per 1000mB)
+	navalFluidFuels = ["tfmg:heavy_oil = 100000"]
+	#Fuel used by Airplanes and Helicopters.
+	#Solid fuel list. (items)
+	aircraftItemFuels = [""]
+	#Liquid fuel list. (energy per 1000mB)
+	aircraftFluidFuels = ["tfmg:kerosene = 30000"]
+
+["General Settings"]
+	#Should default refuel with electricity still be possible?
+	energyRefuel = false
+	#Should dbd check inventory for items or fluids being fuel? [false by default, might be performance heavy]
+	inventoryRefuel = false
+	#Tick interval between refueling checks (20 ticks = 1 second) [1-100 ticks]
+	#Range: 1 ~ 100
+	conversionInterval = 20
+	#How much items can go through conversion? [1-10000 items]
+	#Range: 1 ~ 10000
+	maxItemsPerConversion = 5
+	#How much fuel can go through conversion? [1-1000000 mB]
+	#Range: 1 ~ 1000000
+	maxFuelPerConversion = 250
+	#Should fixed vehicles use energy instead of fuel list? Works even if 'energyRefuel' is 'false'.
+	fixedEnergyRefuel = true
+	#Canister fluid capacity. [1-1000000 mB]
+	#Range: 1 ~ 1000000
+	canisterCapacity = 8000
+	#Pump fluid capacity. [1-1000000 mB]
+	#Range: 1 ~ 1000000
+	pumpCapacity = 64000
+

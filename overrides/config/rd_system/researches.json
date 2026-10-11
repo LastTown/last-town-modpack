@@ -1,0 +1,51 @@
+[
+  {
+    "id": "rd:field_survey",
+    "branch": "TERRITOIRE",
+    "name": "Relevé de terrain",
+    "level": 1,
+    "cost": 20,
+    "prerequisites": [],
+    "requiredItems": {},
+    "requiredZoneName": "Base_Militaire",
+    "requiredControlMinutes": 0
+  },
+  {
+    "id": "rd:basic_extraction",
+    "branch": "INDUSTRIE",
+    "name": "Extraction primaire",
+    "level": 1,
+    "cost": 20,
+    "prerequisites": [],
+    "requiredItems": {
+      "minecraft:coal": 32,
+      "minecraft:iron_ingot": 16
+    },
+    "requiredControlMinutes": 0
+  },
+  {
+    "id": "rd:stock_management",
+    "branch": "LOGISTIQUE",
+    "name": "Gestion des stocks",
+    "level": 1,
+    "cost": 20,
+    "prerequisites": [],
+    "requiredItems": {
+      "minecraft:chest": 8
+    },
+    "requiredControlMinutes": 0
+  },
+  {
+    "id": "rd:field_equipment",
+    "branch": "MILITAIRE",
+    "name": "Équipement de terrain",
+    "level": 1,
+    "cost": 20,
+    "prerequisites": [],
+    "requiredItems": {
+      "minecraft:iron_pickaxe": 2,
+      "minecraft:leather_helmet": 2
+    },
+    "requiredControlMinutes": 0
+  }
+]

@@ -1,0 +1,312 @@
+{
+  "minecraft:zombie": {
+    "spawnChance": 80,
+    "minHealth": 20.0,
+    "maxHealth": 40.0,
+    "speed": 0.23,
+    "knockbackResistance": 0.0,
+    "aggroRange": 35.0,
+    "followRange": 40.0,
+    "sunProof": true
+  },
+  "minecraft:husk": {
+    "spawnChance": 70,
+    "minHealth": 20.0,
+    "maxHealth": 35.0,
+    "speed": 0.23,
+    "knockbackResistance": 0.0,
+    "aggroRange": 35.0,
+    "followRange": 40.0,
+    "sunProof": false
+  },
+  "minecraft:drowned": {
+    "spawnChance": 60,
+    "minHealth": 20.0,
+    "maxHealth": 30.0,
+    "speed": 0.23,
+    "knockbackResistance": 0.0,
+    "aggroRange": 35.0,
+    "followRange": 40.0,
+    "sunProof": true
+  },
+  "minecraft:skeleton": {
+    "spawnChance": 70,
+    "minHealth": 20.0,
+    "maxHealth": 30.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": true
+  },
+  "minecraft:stray": {
+    "spawnChance": 60,
+    "minHealth": 20.0,
+    "maxHealth": 30.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": true
+  },
+  "minecraft:spider": {
+    "spawnChance": 60,
+    "minHealth": 16.0,
+    "maxHealth": 24.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:cave_spider": {
+    "spawnChance": 50,
+    "minHealth": 12.0,
+    "maxHealth": 18.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:creeper": {
+    "spawnChance": 50,
+    "minHealth": 20.0,
+    "maxHealth": 20.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:enderman": {
+    "spawnChance": 40,
+    "minHealth": 40.0,
+    "maxHealth": 60.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.0,
+    "aggroRange": 64.0,
+    "followRange": 64.0,
+    "sunProof": false
+  },
+  "minecraft:witch": {
+    "spawnChance": 30,
+    "minHealth": 26.0,
+    "maxHealth": 36.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:slime": {
+    "spawnChance": 40,
+    "minHealth": -1.0,
+    "maxHealth": -1.0,
+    "speed": -1.0,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:phantom": {
+    "spawnChance": 20,
+    "minHealth": 20.0,
+    "maxHealth": 20.0,
+    "speed": 1.0,
+    "knockbackResistance": 0.0,
+    "aggroRange": 64.0,
+    "followRange": 64.0,
+    "sunProof": true
+  },
+  "minecraft:silverfish": {
+    "spawnChance": 40,
+    "minHealth": 8.0,
+    "maxHealth": 12.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:zombified_piglin": {
+    "spawnChance": 80,
+    "minHealth": 20.0,
+    "maxHealth": 30.0,
+    "speed": 0.23,
+    "knockbackResistance": 0.0,
+    "aggroRange": 35.0,
+    "followRange": 40.0,
+    "sunProof": false
+  },
+  "minecraft:piglin": {
+    "spawnChance": 60,
+    "minHealth": 16.0,
+    "maxHealth": 24.0,
+    "speed": 0.35,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:piglin_brute": {
+    "spawnChance": 30,
+    "minHealth": 50.0,
+    "maxHealth": 70.0,
+    "speed": 0.35,
+    "knockbackResistance": 0.5,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:hoglin": {
+    "spawnChance": 40,
+    "minHealth": 40.0,
+    "maxHealth": 60.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.6,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:blaze": {
+    "spawnChance": 50,
+    "minHealth": 20.0,
+    "maxHealth": 30.0,
+    "speed": 0.23,
+    "knockbackResistance": 0.0,
+    "aggroRange": 48.0,
+    "followRange": 48.0,
+    "sunProof": false
+  },
+  "minecraft:wither_skeleton": {
+    "spawnChance": 30,
+    "minHealth": 20.0,
+    "maxHealth": 35.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:ghast": {
+    "spawnChance": 30,
+    "minHealth": 10.0,
+    "maxHealth": 20.0,
+    "speed": 0.03,
+    "knockbackResistance": 0.0,
+    "aggroRange": 100.0,
+    "followRange": 100.0,
+    "sunProof": false
+  },
+  "minecraft:magma_cube": {
+    "spawnChance": 50,
+    "minHealth": -1.0,
+    "maxHealth": -1.0,
+    "speed": -1.0,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:endermite": {
+    "spawnChance": 20,
+    "minHealth": 8.0,
+    "maxHealth": 8.0,
+    "speed": 0.25,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:shulker": {
+    "spawnChance": 50,
+    "minHealth": 30.0,
+    "maxHealth": 40.0,
+    "speed": 0.0,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:pillager": {
+    "spawnChance": 40,
+    "minHealth": 24.0,
+    "maxHealth": 36.0,
+    "speed": 0.35,
+    "knockbackResistance": 0.0,
+    "aggroRange": 32.0,
+    "followRange": 40.0,
+    "sunProof": false
+  },
+  "minecraft:vindicator": {
+    "spawnChance": 30,
+    "minHealth": 24.0,
+    "maxHealth": 40.0,
+    "speed": 0.35,
+    "knockbackResistance": 0.0,
+    "aggroRange": 12.0,
+    "followRange": 20.0,
+    "sunProof": false
+  },
+  "minecraft:evoker": {
+    "spawnChance": 20,
+    "minHealth": 24.0,
+    "maxHealth": 32.0,
+    "speed": 0.5,
+    "knockbackResistance": 0.0,
+    "aggroRange": 12.0,
+    "followRange": 20.0,
+    "sunProof": false
+  },
+  "minecraft:ravager": {
+    "spawnChance": 10,
+    "minHealth": 100.0,
+    "maxHealth": 150.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.75,
+    "aggroRange": 32.0,
+    "followRange": 40.0,
+    "sunProof": false
+  },
+  "minecraft:vex": {
+    "spawnChance": 30,
+    "minHealth": 14.0,
+    "maxHealth": 14.0,
+    "speed": 1.0,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:guardian": {
+    "spawnChance": 50,
+    "minHealth": 30.0,
+    "maxHealth": 40.0,
+    "speed": 0.5,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:elder_guardian": {
+    "spawnChance": 100,
+    "minHealth": 80.0,
+    "maxHealth": 100.0,
+    "speed": 0.3,
+    "knockbackResistance": 0.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  },
+  "minecraft:warden": {
+    "spawnChance": 100,
+    "minHealth": 500.0,
+    "maxHealth": 500.0,
+    "speed": 0.3,
+    "knockbackResistance": 1.0,
+    "aggroRange": 16.0,
+    "followRange": 24.0,
+    "sunProof": false
+  }
+}

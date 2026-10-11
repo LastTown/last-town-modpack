@@ -1,0 +1,18 @@
+{
+  "clans": {
+    "9325bdc9-ad22-47ed-8f04-a832dc1f4bf8": {
+      "name": "aaa",
+      "created": 1789843419790,
+      "bankBalance": 0,
+      "rankingPoints": 0.0,
+      "claimedCities": [],
+      "members": {
+        "9f63bb89-5a9a-4dcb-abd4-a98af1462f1c": {
+          "name": "D_Spencer",
+          "rank": "CHEF",
+          "joinedAt": 1789843419797
+        }
+      }
+    }
+  }
+}

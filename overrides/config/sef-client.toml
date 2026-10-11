@@ -1,0 +1,9 @@
+
+["----Client Config----"]
+	#Debug Overlay
+	debugOverlay = false
+	#Closes the editor when the speaker resets itself
+	enableEditorExitOnReset = true
+	#Enable Sound Physics
+	enableSoundPhysics = true
+

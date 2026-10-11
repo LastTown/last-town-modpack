@@ -1,0 +1,13 @@
+{
+  "EngineType": "Ship",
+  "EngineInfo": {
+    "Buoyancy": 0.09,
+    "EnergyCostRate": 48,
+    "MaxForwardSpeedRate": 1.0,
+    "MaxBackwardSpeedRate": 0.7,
+    "Increment": 0.035,
+    "Decrement": 0.022,
+    "SteeringSpeed": 0.15,
+    "BodyRollRate": 0.8
+  }
+}

@@ -1,0 +1,24 @@
+
+#Mob Control - Zone Configuration
+#
+#Zone definitions are in: config/mobcontrol-zones.json
+[zones]
+	#Enable the zone spawn system
+	zonesEnabled = false
+	#Enable the web dashboard for zone monitoring
+	webEnabled = false
+	#Port for the web dashboard
+	#Range: 1024 ~ 65535
+	webPort = 8080
+	#Enable mob persistence across chunk load/unload cycles
+	persistenceEnabled = true
+	#Default despawn distance for zone mobs (blocks)
+	#Range: 16 ~ 256
+	defaultDespawnDistance = 70
+	#Default minimum spawn distance from player (blocks)
+	#Range: 4 ~ 128
+	defaultSpawnMinDistance = 16
+	#Default maximum spawn distance from player (blocks)
+	#Range: 8 ~ 256
+	defaultSpawnMaxDistance = 40
+

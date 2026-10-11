@@ -1,0 +1,40 @@
+{
+  "cityEnter": {
+    "enabled": true,
+    "title": "%city%",
+    "subtitle": "",
+    "titleColor": "gold",
+    "subtitleColor": "gray"
+  },
+  "cityLeave": {
+    "enabled": true,
+    "title": "",
+    "subtitle": "Vous quittez %city%",
+    "titleColor": "gray",
+    "subtitleColor": "gray"
+  },
+  "titleSettings": {
+    "fadeIn": 10,
+    "stay": 40,
+    "fadeOut": 10
+  },
+  "claimColors": {
+    "ownCity": "green",
+    "enemyCity": "red",
+    "neutralCity": "white"
+  },
+  "safeZoneEnter": {
+    "enabled": true,
+    "title": "%safezone%",
+    "subtitle": "Zone Protegee",
+    "titleColor": "aqua",
+    "subtitleColor": "green"
+  },
+  "safeZoneLeave": {
+    "enabled": true,
+    "title": "",
+    "subtitle": "Vous quittez la zone protegee",
+    "titleColor": "gray",
+    "subtitleColor": "gray"
+  }
+}

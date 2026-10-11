@@ -1,0 +1,43 @@
+{
+  "memberLimit": {
+    "prices": [
+      100,
+      200,
+      400,
+      800,
+      1600,
+      3200,
+      6400
+    ]
+  },
+  "rallyUnlock": {
+    "price": 500
+  },
+  "rallyDuration": {
+    "prices": [
+      200,
+      400,
+      600,
+      800,
+      1000
+    ]
+  },
+  "rallyPlaceCost": {
+    "prices": [
+      150,
+      300,
+      450,
+      600,
+      750
+    ]
+  },
+  "rallyTpCost": {
+    "prices": [
+      100,
+      200,
+      300,
+      400,
+      500
+    ]
+  }
+}
