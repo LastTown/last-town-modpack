@@ -13,11 +13,14 @@ Modpack client officiel du serveur Minecraft **Last Town**.
 
 - `manifest.json` : liste des mods publics (référencés sur CurseForge) et version du loader.
 - `modlist.html` : liste lisible des mods du manifest.
-- `overrides/mods/` : mods custom du serveur (`lasttown`, `last-town-forge`, `clanwar`,
-  `suppressionmod`, `modid`).
+- `overrides/mods/` : l'ensemble des mods du client (mods publics + mods custom du serveur).
 - `overrides/config/` : configurations de gameplay livrées aux joueurs.
+- `overrides/defaultconfigs/` : configurations par défaut.
 - `overrides/datapacks/` : datapacks du serveur.
-- `overrides/shaderpacks/` : presets de shaders.
+- `overrides/kubejs/` : scripts KubeJS.
+- `overrides/tacz/` : packs d'armes TACZ.
+- `overrides/resourcepacks/` et `overrides/shaderpacks/` : ressources et shaders.
+- `overrides/patchouli_books/` et `overrides/data/` : contenus additionnels.
 
 ## Utilisation par le launcher
 
