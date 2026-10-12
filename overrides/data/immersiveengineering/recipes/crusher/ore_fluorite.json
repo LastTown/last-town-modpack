@@ -1,0 +1,8 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}
