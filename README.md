@@ -2,6 +2,9 @@
 
 Modpack client officiel du serveur Minecraft **Last Town**.
 
+> 🎮 **Vous voulez jouer ?** Suivez le [guide d'installation](GUIDE_INSTALLATION.md)
+> (Windows et Ubuntu) — le launcher s'occupe de tout.
+
 ## Informations
 
 - **Minecraft** : 1.20.1
@@ -24,22 +27,27 @@ Modpack client officiel du serveur Minecraft **Last Town**.
 
 ## Utilisation par le launcher
 
-Le launcher **Last Town Launcher** lit les releases GitHub de ce dépôt pour installer
-et mettre à jour le modpack automatiquement.
+Le launcher **Last Town Launcher** lit les releases GitHub de ce dépôt pour
+installer et mettre à jour le modpack automatiquement, ainsi que pour se mettre
+à jour lui-même.
 
-Chaque version publiée doit être taguée (ex: `v1`) et fournir une release dont l'asset
-est l'archive du modpack, nommée `last-town-modpack-<version>.zip`.
+Deux types de releases cohabitent dans ce dépôt :
 
-## Créer une release
+- **Modpack** : tag `vX.Y.Z` (ex. `v1.0.2`), asset `last-town-modpack-vX.Y.Z.zip`
+  — c'est la release marquée « latest ».
+- **Launcher** : tag `launcher-vX.Y.Z` (ex. `launcher-v0.2.0`), asset
+  `LastTownLauncher-windows.zip` — publiée avec `--latest=false`.
+
+## Créer une release de modpack
 
 1. Mettre à jour le contenu du modpack dans ce dépôt.
 2. Créer l'archive :
 
    ```bash
-   zip -r last-town-modpack-v1.zip manifest.json modlist.html overrides
+   zip -r last-town-modpack-vX.Y.Z.zip manifest.json modlist.html overrides
    ```
 
-3. Publier une release GitHub taguée `v1` avec cette archive en asset.
+3. Publier une release GitHub taguée `vX.Y.Z` avec cette archive en asset.
 
 ## Avertissement
 
