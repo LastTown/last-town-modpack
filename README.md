@@ -25,6 +25,15 @@ Modpack client officiel du serveur Minecraft **Last Town**.
 - `overrides/resourcepacks/` et `overrides/shaderpacks/` : ressources et shaders.
 - `overrides/patchouli_books/` et `overrides/data/` : contenus additionnels.
 
+### Mods custom du serveur
+
+- `overrides/mods/ltlootbox-1.0.0.jar` — **Last Town LootBox** : 4 caisses de butin
+  ouvrables à la clé (militaire, médicale, armurier, divine), roulette d'ouverture
+  façon CS:GO, **un seul item par clé** donné directement dans l'inventaire, annonce
+  globale des loots rares. Les clés ne se craftuent pas (admin / boutique).
+  Le contenu des caisses est modifiable par datapack
+  (`data/ltlootbox/crates/<type>.json` dans le jar ou dans un datapack de monde).
+
 ## Utilisation par le launcher
 
 Le launcher **Last Town Launcher** lit les releases GitHub de ce dépôt pour
