@@ -1,0 +1,87 @@
+name: Build modpack release
+
+# Declenche par un tag vX.Y.Z pousse par la console.
+# Les tags launcher-v* ne commencent pas par « v » et ne declenchent donc pas.
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: modpack-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout du tag
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Verifier la structure du pack
+        run: |
+          set -euo pipefail
+          test -f manifest.json
+          test -f modlist.html
+          test -d overrides/mods
+          echo "Jars dans overrides/mods : $(find overrides/mods -maxdepth 1 -type f -name '*.jar' | wc -l)"
+
+      - name: Construire l archive
+        id: build
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF_NAME}"
+          ASSET="last-town-modpack-${TAG}.zip"
+
+          # Liste triee, archive a la racine (manifest.json, modlist.html, overrides/).
+          find manifest.json modlist.html overrides -type f -print | LC_ALL=C sort | zip -X -q "$ASSET" -@
+
+          SHA256="$(sha256sum "$ASSET" | awk '{print $1}')"
+          SIZE="$(stat -c%s "$ASSET")"
+
+          cat > version.json <<EOF
+          {
+            "tag": "${TAG}",
+            "asset": "${ASSET}",
+            "sha256": "${SHA256}",
+            "size": ${SIZE},
+            "created_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          }
+          EOF
+
+          printf '%s  %s\n' "$SHA256" "$ASSET" > "${ASSET}.sha256"
+
+          echo "asset=$ASSET" >> "$GITHUB_OUTPUT"
+          echo "sha256=$SHA256" >> "$GITHUB_OUTPUT"
+          echo "size=$SIZE" >> "$GITHUB_OUTPUT"
+
+      - name: Creer la release en brouillon
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "Last Town Modpack ${{ github.ref_name }}"
+          draft: true
+          prerelease: false
+          generate_release_notes: false
+          body: |
+            ## Last Town Modpack ${{ github.ref_name }}
+
+            Release construite automatiquement par GitHub Actions.
+
+            - Archive : `${{ steps.build.outputs.asset }}`
+            - Taille : `${{ steps.build.outputs.size }}` octets
+            - SHA-256 : `${{ steps.build.outputs.sha256 }}`
+
+            Cette release reste en **brouillon** jusqu'a la validation du serveur
+            par la console d'administration.
+          files: |
+            ${{ steps.build.outputs.asset }}
+            version.json
+            ${{ steps.build.outputs.asset }}.sha256
