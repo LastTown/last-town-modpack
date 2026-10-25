@@ -9,7 +9,7 @@ Modpack client officiel du serveur Minecraft **Last Town**.
 
 - **Minecraft** : 1.20.1
 - **Mod loader** : Forge `47.4.20`
-- **Version du modpack** : V1.0.6
+- **Version du modpack** : V1.0.7
 - **Format** : export CurseForge (`manifest.json` + `overrides/`)
 
 ## Contenu
