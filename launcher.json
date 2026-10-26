@@ -1,9 +1,9 @@
 {
-    "version":  "0.2.1",
-    "tag":  "launcher-v0.2.1",
+    "version":  "0.2.2",
+    "tag":  "launcher-v0.2.2",
     "asset":  "LastTownLauncher-windows.zip",
-    "url":  "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.1/LastTownLauncher-windows.zip",
-    "size":  175097374,
-    "notes":  "Launcher V0.2.1 - installeurs Windows et Ubuntu, synchronisation automatique du modpack.",
-    "published_at":  "2026-10-18T21:58:48Z"
+    "url":  "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.2/LastTownLauncher-windows.zip",
+    "size":  175206731,
+    "notes":  "Launcher V0.2.2 - correctif des quotas GitHub et mise à jour automatique.",
+    "published_at":  "2026-10-26T02:34:18Z"
 }
