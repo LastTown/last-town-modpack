@@ -1,9 +1,32 @@
 {
-    "version":  "0.2.2",
-    "tag":  "launcher-v0.2.2",
-    "asset":  "LastTownLauncher-windows.zip",
-    "url":  "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.2/LastTownLauncher-windows.zip",
-    "size":  175206731,
-    "notes":  "Launcher V0.2.2 - correctif des quotas GitHub et mise à jour automatique.",
-    "published_at":  "2026-10-26T02:34:18Z"
+    "version": "0.2.3",
+    "tag": "launcher-v0.2.3",
+    "channel": "stable",
+    "preferred": "portable",
+    "published_at": "2026-10-30T10:35:07Z",
+    "notes": "Launcher 0.2.3 : nouvelle interface hybride, verification SHA-256 des fichiers, sauvegardes du modpack, mode hors-ligne automatique et retrait du mod clanwar.",
+    "assets": {
+        "portable": {
+            "name": "LastTownLauncher-windows.zip",
+            "url": "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.3/LastTownLauncher-windows.zip",
+            "size": 175266454,
+            "sha256": "20228d37fd99feb250ff4349e480c54d80fd2701b5460c643a6214f270fcd0ca"
+        },
+        "setup": {
+            "name": "LastTownLauncher-Setup-0.2.3.exe",
+            "url": "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.3/LastTownLauncher-Setup-0.2.3.exe",
+            "size": 117516171,
+            "sha256": "ab27c4e58a500f4514318abbde9c274cf36ee2840d17b5d5c059d2174178cf99"
+        },
+        "linux": {
+            "name": "last-town-launcher_0.2.3_amd64.deb",
+            "url": "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.3/last-town-launcher_0.2.3_amd64.deb",
+            "size": 161442194,
+            "sha256": "701f2d911d10cc447487c49d0e8e7d14c6f441beed3159730593c9a8a6561872"
+        }
+    },
+    "asset": "LastTownLauncher-windows.zip",
+    "url": "https://github.com/LastTown/last-town-modpack/releases/download/launcher-v0.2.3/LastTownLauncher-windows.zip",
+    "size": 175266454,
+    "sha256": "20228d37fd99feb250ff4349e480c54d80fd2701b5460c643a6214f270fcd0ca"
 }
